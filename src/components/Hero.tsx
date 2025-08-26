@@ -1,4 +1,5 @@
 import React from 'react'
+import art from '../assets/placeholder.svg'
 import { useI18n } from './i18n'
 
 export function Hero() {
@@ -19,7 +20,7 @@ export function Hero() {
         </ul>
       </div>
       <div>
-        <img className="rounded-2xl shadow-xl" src="/src/assets/placeholder.svg" alt="Gradient artwork" />
+        <img className="rounded-2xl shadow-xl" src={art} alt="Gradient artwork" />
       </div>
     </section>
   )

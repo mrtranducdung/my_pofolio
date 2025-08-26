@@ -1,9 +1,10 @@
 import React from 'react'
+import ph from '../assets/placeholder.svg'
 import { useI18n } from './i18n'
 
 const Card: React.FC<{title: string, desc: string}> = ({ title, desc }) => (
   <article className="card overflow-hidden">
-    <img src="/src/assets/placeholder.svg" alt="" className="w-full h-40 object-cover" />
+    <img src={ph} alt="" className="w-full h-40 object-cover" />
     <div className="card-body">
       <h3 className="font-bold text-lg">{title}</h3>
       <p className="text-slate-600 dark:text-slate-400">{desc}</p>
