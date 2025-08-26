@@ -20,7 +20,7 @@ export function Header() {
     <header className="sticky top-0 z-10 border-b border-slate-200/60 dark:border-slate-800/60 bg-white/70 dark:bg-slate-950/70 backdrop-blur-md">
       <div className="container flex items-center justify-between gap-4 py-3">
         <div className="flex items-center gap-2 font-extrabold">
-          <img src={`${import.meta.env.BASE_URL}placeholder.svg`} alt="Logo" />
+          <img src={`${import.meta.env.BASE_URL}placeholder.svg`} alt="Logo" className="h-7 w-7 rounded" />
           <span>Tran Duc Dung</span>
         </div>
         <nav className="flex flex-wrap items-center gap-2" aria-label="Primary">
