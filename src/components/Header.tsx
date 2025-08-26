@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/placeholder.svg'
 import { useI18n } from './i18n'
 
 export function Header() {
@@ -19,7 +20,7 @@ export function Header() {
     <header className="sticky top-0 z-10 border-b border-slate-200/60 dark:border-slate-800/60 bg-white/70 dark:bg-slate-950/70 backdrop-blur-md">
       <div className="container flex items-center justify-between gap-4 py-3">
         <div className="flex items-center gap-2 font-extrabold">
-          <img src="/src/assets/placeholder.svg" alt="" className="h-7 w-7 rounded" />
+          <img src={logo} alt="Logo" className="h-7 w-7 rounded" />
           <span>Tran Duc Dung</span>
         </div>
         <nav className="flex flex-wrap items-center gap-2" aria-label="Primary">
